@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Caixas</title>
+    <style>
+        h1 { /*box level*/
+            background-color: rgb(128, 228, 206);
+            height: 150px;
+            width: 250px;
+           
+
+            /* para que eu substitua todas essas bordas:  border-width: 10px;
+            border-style: solid;
+            border-color: darkgray, colocarei apenas o que está abaixo.*/
+
+            border: 10px solid darkgray;
+
+           /* para subistituir todos os paddings que coloquei:  padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px, basta colocar o padding abaixo.*/
+
+            padding: 10px 10px 10px 10 px;
+            /* ou basta colocar apenas um 10 px ao invés de 4 10px.*/
+
+
+              /*e ao invés de coplocar todos os margins, como fiz aqui: margin-top: 20xp, margin: right 20px;margin-bottom: 40px, margin-left: 20px, coloco apenas o margin abaixo.*/
+
+              margin: 20px auto 40px auto;
+           
+
+            /* ao invés de colocar todos os outlines como diz aqui:outline-width: 5px;
+            outline-style: dashed;
+            outline-color:salmon, basta colocar apenas o uutline abaixo.*/
+            
+            outline: 5px dashed salmon;
+            
+        }
+
+        a { /*inline-level*/
+            border-width: 5px;
+            border-style: solid ;
+            border-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box level</h1>
+    <p>Parágafos também são exemplos de box level, mas os <a href="#">links</a> são exemplos de box inline. Vamos ver como tudo isso funciona.</p>
+    
+</body>
+</html>

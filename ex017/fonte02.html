@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'ramen'; 
+            src: wrl('fontes/ramen suace.otf') format ('opentype'), url('fontes/Ramen\ Sauce.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        
+            /*
+            TIPOS DE FORMATOS:
+            - opentype (otf)
+            -truetype (ttf)
+            -embadded-opentype(eot)
+            -truetype-aat(aple advanced typography)
+            -svg*/
+        }
+
+        body {
+            font-family:  system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        h1 {
+            font-family: 'Ramen', Georgia, 'Times New Roman', Times, serif; 3em;
+            font-weight: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ciao, Mondo!</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis sapiente, fugiat sequi optio accusantium quidem, quaerat voluptatum ea vel ipsa ad iusto, soluta deleniti quasi distinctio tenetur! Quas, reprehenderit quam.</p>
+</body>
+</html>

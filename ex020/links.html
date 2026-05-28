@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* SELETORES CSS PERSONALIZADOS:
+        # = id
+        .  = class
+        : = pseudo-classe
+        :: = pseudo-elemento
+        > = children(filho)
+        a = tag */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a { 
+            color:rgb(87, 16, 219);
+            text-decoration: none; 
+            font-weight: bold;
+        }
+
+        a:visited {
+            color:rgb(47, 185, 219);
+        }
+
+        a:hover {
+            color:black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color:rgb(179, 23, 108);
+        }
+
+        .especial{
+            background-color: aqua;
+        }
+        a::after {
+            content: "[link]";
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey
+            
+        
+
+        }
+    </style>
+</head>
+<body>
+   <h1>Personalizando Links</h1>
+   <ul>
+   <li><a href="https://github.com" target="_blank">Repositório Github</a></li>
+   <li><a href="https://youtube.com" target="_blank">Canal Youtube</a></li>
+   <li><a href="https://cursoemvideo.com" target="_blank" class="especial" >Site do Curso em Vídeo</a></li>
+</ul> 
+
+</body>
+</html>

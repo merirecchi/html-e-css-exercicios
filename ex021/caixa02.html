@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:rgb(197, 221, 221)
+            margin: 0px;
+            
+        }
+
+
+        header {
+            width: 600px;
+            background-color: rgb(14, 14, 26);
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        h1 { 
+            box-shadow: inset 2px 1 pxx 14px 6 px black;
+           
+        }
+
+         nav { 
+            background-color: rgb(238, 231, 235);
+            padding: 3px;
+            border-radius: 10px 0px;
+            
+         }
+
+         nav > a {
+            text-decoration: none;
+            color: rgb(14, 8, 20);
+           font-weight: bold;
+           margin: 30px;
+           
+         }
+         
+
+
+        main {
+            background-color:rgb(92, 51, 77);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9 px 9px rgb(37, 37, 37);
+
+        }
+
+        article {
+            background-color: rgb(129, 121, 115);
+            padding: 5px;
+            border-radius: 10px 0px;
+        }
+
+        article > aside { 
+            background-color: rgba(163, 146, 146, 0.815);
+           border-radius: 5px 0px;
+        }
+
+        footer {
+            background-color: rgb(25, 12, 37);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            border-radius: 5px 5px;
+
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 80px;
+            width: 80px;
+            margin: 15px;
+            background-color: rgb(136, 110, 110) ;
+            border-radius: 50%;
+        }
+    </style>
+   
+</head>
+<body>
+    <header>
+        <nav>
+        <h1>Meu Site</h1>
+        <a href="https://www.google.com" target="_blank">Google</a>
+        <a href="https://www.github.com" target="_blank">GitHub</a>
+        <a href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a>
+        <a href="https://www.youtube.com" target="_blank">YouTube</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+        <p>Esportes, política e tecnologia.
+        <section id="notícias"></section>
+        <article>
+            <h2>Notícias sobre o Brasil e o mundo.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem necessitatibus minima beatae, ex esse ratione. Voluptas blanditiis quis repudiandae consequatur fuga, obcaecati magni soluta odit nihil autem? Aut, pariatur minus?</p>
+            <aside>
+                <p>Artigo escrito por Méri</p>
+            </aside>
+        </article>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso em Vídeo</p>
+
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
